@@ -20,7 +20,7 @@ public class MathSeries{
 
     System.out.println(series (a,b,n));
  }   	
- public static  double series(int a, int b, int n) {
+ public static  double series(int a, int b, int n) { // used a method called series with input values as a,b,n and output as r.
 	    double r = 0;
 	    for (int x = 0; x<n; x++)
 	    {
