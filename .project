@@ -14,21 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/Methods_Practice/Instructions_SmallestWithMethods.docx</name>
-			<type>1</type>
-			<location>L:/WS/Java_Hackerrank/src/Methods_Practice/Instructions_SmallestWithMethods.docx</location>
-		</link>
-		<link>
-			<name>src/loopsII_MathSeries/ObjectiveII.docx</name>
-			<type>1</type>
-			<location>L:/WS/Java_Hackerrank/src/loopsII_MathSeries/ObjectiveII.docx</location>
-		</link>
-		<link>
-			<name>src/loopsI_MathTable/Objective.docx</name>
-			<type>1</type>
-			<location>L:/WS/Java_Hackerrank/src/loopsI_MathTable/Objective.docx</location>
-		</link>
-	</linkedResources>
 </projectDescription>
