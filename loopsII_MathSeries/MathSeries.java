@@ -12,7 +12,10 @@ class Solution{
             int b = in.nextInt();
             int n = in.nextInt();
        
-        System.out.println(series(a,b,n));
+            for (int x=0; x<n-1;x++) {
+            	System.out.print" "+series(a,b,n));
+            }
+        
         in.close();
         }
     }
