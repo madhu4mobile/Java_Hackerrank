@@ -1,34 +1,30 @@
 package loopsII_MathSeries;
 
 import java.util.*;
+import java.io.*;
 
-public class MathSeries{
-    public static void main(String []argh){
-        
-    	// initiate scanner class with system in method.
-    	Scanner in = new Scanner(System.in);
-    	// initate a,b,n
-        int a = 0;
-    	int b = 0;
-    	int n = 0;
-    	
-        System.out.println("Give the values of a and b and n");
-             a = in.nextInt();
-             b = in.nextInt();
-             n = in.nextInt();
+class Solution{
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int t=in.nextInt();
+        for(int i=0;i<t;i++){
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int n = in.nextInt();
+       
+        System.out.println(series(a,b,n));
         in.close();
-
-    System.out.println(series (a,b,n));
- }   	
- public static  double series(int a, int b, int n) { // used a method called series with input values as a,b,n and output as r.
+        }
+    }
+    public static  double series(int a, int b, int n) { // used a method called series with input values as a,b,n and output as r.
 	    double r = 0;
 	    for (int x = 0; x<n; x++)
 	    {
-	 	   r = a+(2^x)*b;
+	 	   r = (double)a+(2^x)*b;
 	 	 //System.out.println(r);   
 	    }
 	    return r;
- }
+ } 
 }
 
 
